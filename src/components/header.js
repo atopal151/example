@@ -11,6 +11,7 @@ const Header= (props)=>{
     return (
     <View style={viewStyle}>
         <Text style={textStyling}>{props.title}</Text>
+        
     </View>
     );
 }
@@ -21,7 +22,7 @@ const styles ={
       color:'black'
     },
     viewStyle:{
-        backgroundColor:'grey',
+        backgroundColor:'#acc',
         height:100,
         justifyContent:'center',
         alignItems:'center',

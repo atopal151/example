@@ -1,25 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, } from 'react-native';
 import Header  from './src/components/header';
+import CarList  from './src/components/carList';
 
 export default function App() {
 
   
   
   return (
-        <Header title={"Cars Title verdik."}></Header>
+
+       <View>
+         <Header title={"Hello React Native"}/>
+         <CarList/>
+       </View>
   );
 }
 
 
 
-/*
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#aba',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-*/
+
